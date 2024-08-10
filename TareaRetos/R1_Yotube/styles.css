@@ -1,0 +1,122 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    margin: 15px;
+    display: flex;
+    min-height: 100vh;
+}
+.barra_busqueda {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 5px 5px;
+    width: 100%;
+    box-shadow: 0 2px 4px rgb(248, 246, 246);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+.icono_menu img {
+    height: 22px;
+    cursor: pointer;
+    margin-right: 0px;
+}
+
+.logo img {
+    display: flex;
+    height: 45px;
+    margin-right: 50px;
+}
+
+.busqueda {
+    display: flex;
+    width: 60%;
+    margin-left: 100px;
+}
+
+.busqueda input {
+    width: 80%;
+    padding: 5px;
+    border: 1px solid #000000;
+    border-right: none;
+    border-radius: 25px 0px 0px 25px;
+}
+
+.busqueda button {
+    padding: 10px 20px;
+    background-color: #eeeaeaf5;
+    border: 1px solid #000000;
+    border-left: none;
+    cursor: pointer;
+    border-radius: 0px 25px 25px 0px;
+}
+
+.icono_micro img {
+    height: 30px;
+    cursor: pointer; 
+    margin-right: 40px;
+    border-radius: 25px;
+    background-color: #eeeaeaf5;
+    
+}
+.icono_camara img {
+    height: 15px;
+    cursor: pointer;
+    margin-left: 50px;
+    padding: 10px;
+}
+.icono_noti img {
+    height: 25px;
+    cursor: pointer;
+    padding: 10px;
+    
+}
+.icono_usuario img {
+    height: 25px;
+    cursor: pointer;
+    margin-left: 2px;
+    padding: 10px;
+}
+
+
+
+
+.barra_izquierda {
+    width: 200px;
+    background-color: #ffffff;
+    padding-top: 70px; 
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    height: 100vh;
+    line-height: 5px;
+}
+
+.barra_izquierda nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.barra_izquierda nav ul li {
+    margin-bottom: 20px;
+}
+
+.barra_izquierda nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px 20px;
+    display: block;
+}
+
+.barra_izquierda nav ul li a:hover {
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+.contenido {
+    margin-left: 220px; 
+    padding-top: 70px; 
+    padding: 20px;
+    background-color: #ffffff;
+    width: 100%;
+}
